@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style1.css">
-    
+
     
     <title>Formulario-P1</title>
 </head>
@@ -18,7 +18,7 @@
 
         <form action="./index1.php" method="get">
 
-    <div class="fieldset">
+    <fieldset class="fieldset">
 
         <div class="NameUserrr">
             <label for="UserName" class="NameLection" > Digita tu nombre</label>
@@ -59,7 +59,7 @@
             </button>
 
         </div>
-    </div>
+        </fieldset>
         </form>
         
     </main>

@@ -21,11 +21,11 @@ main{
 .fieldset{
     width: 380px;
     height: 480px;
-    padding-left: 10px;
+    padding-left: 30px;
     padding-top: 30px;
     border-radius: 18px;
     border: solid 1px;
-}mit
+}
 
 .NameUserrr{
     display: block;
