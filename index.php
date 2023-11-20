@@ -11,10 +11,10 @@
     </header>
     <main>
        <span> punto 1 </span>
-        <a href="./Punto-1/index1.html">Punto 1</a>
+        <a href="./folio-1/indexv1.php">Punto 1</a>
 
         <span> punto 2 </span>
-        <a href="./Punto-2/index2.html">Punto 2</a>
+        <a href="./folio-2/indexv2.php">Punto 2</a>
 
     </main>
     <footer>
