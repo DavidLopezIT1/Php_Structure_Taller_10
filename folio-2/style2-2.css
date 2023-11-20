@@ -1,0 +1,66 @@
+html{
+    display: flex;
+    background: linear-gradient(rgba(156, 33, 2, 0.831), rgba(156, 115, 2, 0.715));
+    justify-content: space-around;
+
+}
+header{
+
+    width: 100%;
+    height: 100px;
+    font-family: cursive;
+    font-size: 22px;
+      
+}
+main{
+    
+    width: 100%;
+    height: 600px;
+    font-family: cursive;
+    font-size: 22px;
+    
+}
+.User_Name{
+    margin-left: 350px;
+}
+.Datos_Sumin{
+    margin-left: 30px;
+}
+.Edad{
+    margin-left: 350px;
+
+}
+.IF_Else{
+    margin-left: 30px;
+
+}
+
+span{
+    font-family: cursive;
+    font-size: 42px;
+}
+div{
+    margin-top: 40px;
+}
+footer{
+    width: 100%;
+    height: 400px;
+    font-family: cursive;
+    font-size: 22px;
+    margin-left: 160px;
+}
+button{
+    display: block;
+    width: 130px;
+    height: 39px;
+    background-color: rgba(0, 0, 0, 0.217);
+    border-radius: 18px;
+    margin-left: 280px;
+    margin-top:40px;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 22px;
+}

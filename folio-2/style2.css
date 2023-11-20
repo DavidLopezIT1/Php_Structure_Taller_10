@@ -18,7 +18,7 @@ main{
 }
 .General{
     display: inherit;
-    height: 400px;
+    height: 480px;
     width: 340px;
     margin-top: 40px;
     padding: 40px 20px 10px 80px;
@@ -46,6 +46,7 @@ input{
     text-align: center;  
 }
 .Bton{
+    
     background-color: rgba(0, 0, 0, 0.15);
     width: 100px;
     height: 30px;
@@ -55,4 +56,22 @@ input{
     margin-bottom: 20px;
     margin-left: 94px;
     font-size: large;    
+}
+
+.Button{
+    background-color: rgba(0, 0, 0, 0.15);
+    width: 100px;
+    height: 30px;
+    border-radius: 12px;
+    border: solid 1px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 94px;
+    font-size: large; 
+    
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: large;
 }

@@ -34,10 +34,15 @@
             <label for="Send"></label>
             <input type="submit" class="Bton">
         </div>
-        </div>
+        <button class="Button">
+          <a href="../index.html">Inicio</a>
+        </button>
+        
         </form>
     </main>
-    <footer></footer>
+    <footer>
+
+    </footer>
     
 </body>
 </html>

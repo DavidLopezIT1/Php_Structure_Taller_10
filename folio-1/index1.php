@@ -10,7 +10,7 @@
 
 <?php 
 
-include "./indexv1.php";
+
 $select = $_GET["Type_operation"];
 $UserName = $_GET["UserName"];
 $Number1 = $_GET["Number1"];
