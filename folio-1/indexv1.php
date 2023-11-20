@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style1.css">
+    
     <title>Formulario-P1</title>
 </head>
 <body>
@@ -15,12 +16,15 @@
     <main>
 
         <form action="./index1.php" method="get">
-            <fieldset>
+
+    <div class="fieldset">
+
         <div class="NameUserrr">
             <label for="UserName" class="NameLection" > Digita tu nombre</label>
             <br>
             <input type="text" name="UserName" id="UserName">
         </div>
+
         <div class="Select_1">
             <label for="Type_operation" class="Election"> Elija tipo de operación desea realizar</label>
             <br>
@@ -34,9 +38,9 @@
         </div>
         
         <div class="Number1">
-        <label for="Number1"> Digite el primer número</label>
-        <br>
-       <input type="number" name="Number1" id="Number1">
+             <label for="Number1"> Digite el primer número</label>
+             <br>
+              <input type="number" name="Number1" id="Number1">
         </div>
 
         <div class="Number2">
@@ -44,10 +48,15 @@
         <br>
        <input type="number" name="Number2" id="Number2">
        </div>
+
         <div class="Button_Submit">
             <input type="submit" name="Enviar" id="Enviar">
         </div>
-    </fieldset>
+        <div>
+            <button>Inicio</button>
+
+        </div>
+    </div>
         </form>
         
     </main>

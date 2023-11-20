@@ -18,6 +18,16 @@ main{
     font-size: 22px;
     
 }
+.fieldset{
+    width: 380px;
+    height: 480px;
+    padding-left: 10px;
+    padding-top: 30px;
+    border-radius: 18px;
+    border: solid 1px;
+
+}
+
 .NameUserrr{
     display: block;
 }
@@ -44,10 +54,12 @@ input{
     height: 30px;
     margin-left: 80px;
     border-radius: 18px;
-    background-color: rgba(0, 0, 0, 0.119);
+    background-color:  rgba(0, 0, 0, 0.119);
     color: aliceblue;
     text-align: center;
-    font-size: larger;
+    font-size: large;
+    margin-top: 12px;
+
 }
 label{
     padding-left: 80px;
@@ -66,13 +78,22 @@ footer{
     height: 190px;
     background: linear-gradient(rgba(10, 82, 216, 0.584), rgb(16, 102, 102));
 }
-fieldset{
-   
+button{
+    width: 200px;
+    height: 30px;
+    margin-left: 80px;
     border-radius: 18px;
-    background-color: rgba(0, 0, 0, 0.101);
-    border: solid 0.5px;
+    background-color:  rgba(0, 0, 0, 0.119);
+    color: aliceblue;
+    text-align: center;
+    font-size: large;
+    margin-top: 12px;
 }
+    
 span{
     font-family: cursive;
     font-size: 42px;
+}
+.Button_Submit{
+    margin-top: 20px;
 }
