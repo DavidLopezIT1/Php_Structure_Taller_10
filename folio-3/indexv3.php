@@ -8,7 +8,9 @@
 </head>
 <body>
     <h1>Formulario de datos básicos</h1>
-    <form action="index.php" method="post">
+
+    <form action="index3.php" method="post">
+
         <div>
         <label for="name"> Ingrese su nombre</label>
         <input type="text" name="name" id="name">
@@ -20,6 +22,7 @@
         <div>
         <button>Send Info</button>
     </div>
+    
     </form>
 </body>
 </html>
