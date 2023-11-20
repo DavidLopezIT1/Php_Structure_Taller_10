@@ -14,17 +14,17 @@ echo "Usted eligió como operación " . $select;
 
 switch($select){
     case "Suma":
-      echo "  " . "El resultado de " . $Number1 . " - " . $Number2 . " es =  "  . ($Number1 + $Number2);
+      echo "  " . "El resultado de " . $Number1 . " + " . $Number2 . " es =  "  . ($Number1 + $Number2);
     break;
     case "Resta":
             echo "  " . "El resultado de " . $Number1 . " - " . $Number2 . " es =  "  . ($Number1 - $Number2);
     break;
     case "Multiplicación":
-      echo "  " . "El resultado de " . $Number1 . " - " . $Number2 . " es =  "  . ($Number1 * $Number2);
+      echo "  " . "El resultado de " . $Number1 . " * " . $Number2 . " es =  "  . ($Number1 * $Number2);
 
     break;
     case "División":
-      echo "  " . "El resultado de " . $Number1 . " - " . $Number2 . " es =  "  . ($Number1 / $Number2);
+      echo "  " . "El resultado de " . $Number1 . " / " . $Number2 . " es =  "  . ($Number1 / $Number2);
     break;
     case "Select":
               echo "   NO ha elegido ningun criterio para su operación";
