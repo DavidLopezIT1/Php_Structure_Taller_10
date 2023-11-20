@@ -25,7 +25,6 @@ main{
     padding-top: 30px;
     border-radius: 18px;
     border: solid 1px;
-
 }
 
 .NameUserrr{
@@ -96,4 +95,8 @@ span{
 }
 .Button_Submit{
     margin-top: 20px;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
 }

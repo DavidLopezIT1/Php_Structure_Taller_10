@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style1.css">
     
+    
     <title>Formulario-P1</title>
 </head>
 <body>
@@ -53,7 +54,9 @@
             <input type="submit" name="Enviar" id="Enviar">
         </div>
         <div>
-            <button>Inicio</button>
+            <button>
+               <a href="../index.html">Inicio</a> 
+            </button>
 
         </div>
     </div>
