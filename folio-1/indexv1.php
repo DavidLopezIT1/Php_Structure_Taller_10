@@ -16,7 +16,7 @@
     </header>
     <main>
 
-        <form action="./index1.php" method="get">
+        <form action="./index1.php" method="post">
 
     <fieldset class="fieldset">
 
@@ -53,12 +53,7 @@
         <div class="Button_Submit">
             <input type="submit" name="Enviar" id="Enviar">
         </div>
-        <div>
-            <button>
-               <a href="../index.html">Inicio</a> 
-            </button>
-
-        </div>
+        
         </fieldset>
         </form>
         

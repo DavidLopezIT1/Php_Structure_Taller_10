@@ -10,11 +10,11 @@
 
 <?php 
 
-
 $select = $_GET["Type_operation"];
 $UserName = $_GET["UserName"];
 $Number1 = $_GET["Number1"];
 $Number2 = $_GET["Number2"];
+
 ?> 
 <div>
 <span> <?php echo "\n\n\n Interfáz de Resultados\n\n\n"; ?> </span>

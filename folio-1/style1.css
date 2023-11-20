@@ -16,15 +16,10 @@ main{
     height: 600px;
     font-family: cursive;
     font-size: 22px;
-    
 }
-.fieldset{
-    width: 380px;
-    height: 480px;
-    padding-left: 30px;
-    padding-top: 30px;
-    border-radius: 18px;
-    border: solid 1px;
+
+fieldset{
+    padding-right: 1000px;
 }
 
 .NameUserrr{
