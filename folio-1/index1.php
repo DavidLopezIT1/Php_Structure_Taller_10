@@ -7,7 +7,10 @@
   <title>Resultados</title>
 </head>
 <body>
+<footer>
 
+</footer>
+<main>
 <?php 
 
 $select = $_GET["Type_operation"];
@@ -47,9 +50,27 @@ switch($select){
     
   }
 
+  ?> </span> <br>
+  </main>
+  <footer>
+<div class="Boton_Inicio">
+  <button>
+    <a href="indexv1.php">
+      Volver
+    </a>
+  </button>
+  </div>
 
-
-  ?> </span>
+  <div class="Boton_Inicio">
+  <button>
+    <a href="../index.html">
+      Inicio
+    </a>
+  </button>
+  </div>
+  </footer>
 </div>
+
+
 </body>
 </html>

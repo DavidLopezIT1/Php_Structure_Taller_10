@@ -17,3 +17,25 @@ div{
 .Type_operation{
     color: yellow;
 }
+
+.Boton_Inicio{
+  display: flex;
+  width: 100%;
+  margin-top: 40px;
+}
+button{
+    width: 200px;
+    height: 30px;
+    margin-left: 0px;
+    border-radius: 18px;
+    background-color:  rgba(0, 0, 0, 0.105);
+    color: aliceblue;
+    text-align: center;
+    font-size: large;
+    margin-top: 12px; 
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}

@@ -16,7 +16,7 @@
     </header>
     <main>
 
-        <form action="./index1.php" method="post">
+        <form action="./index1.php" method="get">
 
     <fieldset class="fieldset">
 
