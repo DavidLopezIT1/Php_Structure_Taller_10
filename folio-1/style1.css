@@ -21,6 +21,8 @@ main{
     border: solid 1px;
     border-radius: 18px;
     padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 15px;
 }
 .NameUserrr{
     display: block;

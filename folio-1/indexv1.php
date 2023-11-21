@@ -18,7 +18,7 @@
 
         <form action="./index1.php" method="get">
 
-    <fieldset lass="fieldset">
+    <fieldset class="fieldset">
 
         <div class="NameUserrr">
             <label for="UserName" class="NameLection" > Digita tu nombre</label>
