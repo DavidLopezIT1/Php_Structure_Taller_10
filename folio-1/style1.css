@@ -17,7 +17,11 @@ main{
     font-family: cursive;
     font-size: 22px;
 }
-
+.fieldset{
+    border: solid 1px;
+    border-radius: 18px;
+    padding-top: 30px;
+}
 .NameUserrr{
     display: block;
 }

@@ -5,4 +5,29 @@ html{
     height: 100%;
     background-color: teal;
 }
-
+header{
+    font-family: cursive;
+    font-size: 26px ;
+}
+span{
+    font-family: Coursive;
+    font-size:40px;
+    margin-top: 50px;
+    margin-left: 300px;
+    
+}
+button{
+    width: 200px;
+    height: 30px;
+    margin-left: 400px;
+    margin-top:30px;
+    border-radius: 18px;
+    background-color:  rgba(0, 0, 0, 0.105);
+    color: aliceblue;
+    text-align: center;
+    font-size: large;
+    
+}
+a{
+    color: aliceblue;
+}

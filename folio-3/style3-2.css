@@ -49,4 +49,11 @@ button{
     width: 100px;
     height: 30px;
     border-radius: 18px;
+    background-color:  rgba(0, 0, 0, 0.105);
+    color: aliceblue;
+    text-align: center;
+    font-size: large;
+}
+a{
+    text-decoration: none;
 }
