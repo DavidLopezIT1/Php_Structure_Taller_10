@@ -1,0 +1,52 @@
+html{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#15dce3c0 , rgba(21, 186, 227, 0.785),rgba(6, 112, 139, 0.785) );
+    width: 100%;
+    height: 100%;
+}
+header{
+    font-family: cursive;
+    font-size: large;
+}
+.General{
+    width: 370px;
+    height: 340px;
+    padding-top:30px;
+    padding-left: 30px;
+    border: solid 1px;
+    border-radius: 18px;
+    font-family: coursive;
+    font-size: large;
+
+
+}
+input{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 83px;
+    width: 170px;
+    height: 20px;
+    border: solid 1px;
+    border-radius: 18px;
+}
+
+label{
+    margin-left:65px;
+}
+.Label{
+    margin-left: 110px;
+}
+.Button1{
+    margin-left: 120px;
+    margin-top: 20px;
+}
+.Button2{
+    margin-left: 120px;
+    margin-top: 20px;
+}
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: 18px;
+}

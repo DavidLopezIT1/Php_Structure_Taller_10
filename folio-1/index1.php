@@ -25,9 +25,11 @@ $Number2 = $_GET["Number2"];
 <div>
 <span> <?php  echo "\n\n\n Buenas tardes $UserName \n\n\n"; ?> </span>
 </div>
+
 <div>
 <span> <?php echo "Usted eligió como operación - (" . $select . ")"; ?> </span>
 </div>
+
 <div>
 <span> <?php 
 switch($select){

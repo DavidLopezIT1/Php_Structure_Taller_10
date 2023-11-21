@@ -25,7 +25,7 @@
         <div>
           <label for="User_Cedula">Digite su Número de Cédula</label> <br>
           <input type="text" name="User_Cedula" placeholder ="Cédula Colombiana">
-        </div>
+        </div> 
         <div>
           <label for="User_Edad" class="Inp_Age">Digite su Edad</label><br>
           <input type="text" name="User_Edad" placeholder ="Ingresan Mayores de Edad">

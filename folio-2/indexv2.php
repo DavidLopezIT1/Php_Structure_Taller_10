@@ -31,8 +31,11 @@ $User_Edad = $_REQUEST [ "User_Edad"];
 </div>
 
 <div>
-<span class="IF_Else"> <?php 
-if($User_Edad <= 18){
+<span class="IF_Else"> 
+    
+    <?php 
+
+if($User_Edad <= 17){
     echo "\n\n Por lo cual NO Puede ingresar ya que usted NO es mayor de edad\n\n";
 }
 else{
