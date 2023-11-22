@@ -1,0 +1,46 @@
+html{
+    display: flex;
+    background-color: teal;
+    justify-content: center;
+}
+header{
+    padding-left: 30px;
+}
+main{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 26px;
+}
+.General{
+    display: inherit;
+    height: 520px;
+    width: 340px;
+    margin-top: 40px;
+    padding: 40px 20px 10px 80px;
+    border-radius: 12px;
+    border: solid 1px;
+    background-color: rgba(0, 0, 0, 0.126);
+}
+input{
+    background-color: rgba(0, 0, 0, 0.15);
+    width: 280px;
+    height: 30px;
+    border-radius: 12px;
+    border: solid 1px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: large;
+    text-align: center;  
+}
+Button{
+    background-color: rgba(0, 0, 0, 0.15);
+    width: 100px;
+    height: 30px;
+    border-radius: 12px;
+    border: solid 1px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 94px;
+    font-size: large; 
+    
+}
