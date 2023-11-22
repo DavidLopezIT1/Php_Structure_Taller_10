@@ -14,7 +14,7 @@
 </header>
 
 <main>
-    <form action="indexv4.php" method="get" required>
+    <form action="indexv4.php" method="get" >
 
     <div class="General">
     <span>Bienvenido al regulador de edades! </span>
@@ -24,7 +24,7 @@
     </div>
 
     <div>
-    <input type="text" name="Name_User" id = "Name_User" required >
+    <input type="text" name="Name_User">
         </div>
 
         <div>
@@ -32,7 +32,7 @@
     </div>
 
     <div>
-    <input type="text" name="Cedule" required>
+    <input type="number" name="Cedule" >
         </div>
 
         <div>
@@ -40,7 +40,7 @@
     </div>
 
     <div>
-    <input type="text" name="User_Date_Nac" required>
+    <input type="date" name="User_Date_Nac" >
         </div>
 
         <div>

@@ -14,8 +14,7 @@
     <main>
 
 <?php 
-$num1 = 0;
-$num2 = 0;
+
 
 date("Y/m/d") ;
 
@@ -23,7 +22,13 @@ $name_User = $_REQUEST["Name_User"];
 $Cedule = $_REQUEST["Cedule"];
 $User_Date_Nac = $_REQUEST["User_Date_Nac"];
 
-$Result = date("Y/m/d") - $User_Date_Nac;
+$currentDate = new DateTime();
+
+$birth = new DateTime($User_Date_Nac);
+
+$Result = $currentDate->diff($birth)->Y;
+
+// $ageNumber = $currentDate->diff($birth)->y;
 
 ?>
 

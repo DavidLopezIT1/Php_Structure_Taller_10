@@ -23,7 +23,7 @@
         <div class="NameUserrr">
             <label for="UserName" class="NameLection" > Digita tu nombre</label>
             <br>
-            <input type="text" name="UserName" id="UserName">
+            <input type="text" name="UserName" id="UserName" require> 
         </div>
 
         <div class="Select_1">

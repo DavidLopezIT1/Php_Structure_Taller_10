@@ -42,7 +42,7 @@ $cedule = $_REQUEST[ "cedule"];
         echo "NO ha digitado su Edad : \n\n";
     } 
     else{
-        echo "El nombre es : " . $edad . "\n\n"; 
+        echo "La edad es : " . $edad . "\n\n"; 
          } ?> </span>
  </div>
 
@@ -53,7 +53,7 @@ $cedule = $_REQUEST[ "cedule"];
         echo "NO ha digitado su Cédula : \n\n";
     } 
     else{
-        echo "El nombre es : " . $cedule . "\n\n"; 
+        echo "La cédula es : " . $cedule . "\n\n"; 
          } ?> </span>
  </div>
 
