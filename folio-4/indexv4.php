@@ -16,15 +16,13 @@
 <?php 
 
 
-date("Y/m/d") ;
-
 $name_User = $_REQUEST["Name_User"];
 $Cedule = $_REQUEST["Cedule"];
 $User_Date_Nac = $_REQUEST["User_Date_Nac"];
 
-$currentDate = new DateTime();
+$currentDate = date();
 
-$birth = new DateTime($User_Date_Nac);
+$birth = date($User_Date_Nac);
 
 $Result = $currentDate->diff($birth)->Y;
 
@@ -56,7 +54,7 @@ if($Result <=17){
 
 ?></span>
 </div>
-
+ 
     <div><button>
     <a href="index4.php">Volver</a>
     </button></div>
