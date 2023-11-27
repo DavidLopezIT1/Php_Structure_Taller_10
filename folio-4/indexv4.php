@@ -15,18 +15,15 @@
 
 <?php 
 
-
 $name_User = $_REQUEST["Name_User"];
 $Cedule = $_REQUEST["Cedule"];
 $User_Date_Nac = $_REQUEST["User_Date_Nac"];
 
-$currentDate = date();
+$currentDate = new DateTime("2023-11-27");
 
-$birth = date($User_Date_Nac);
+$birth = new DateTime ($User_Date_Nac);
 
-$Result = $currentDate->diff($birth)->Y;
-
-// $ageNumber = $currentDate->diff($birth)->y;
+$Result = $currentDate->diff($birth)->y;
 
 ?>
 
@@ -35,7 +32,7 @@ $Result = $currentDate->diff($birth)->Y;
 echo " Hola " . $name_User;
 ?></span> 
 </div>
- 
+
 <div>
 <span> <?php 
 echo " Su cédula es " . $Cedule;
@@ -45,7 +42,7 @@ echo " Su cédula es " . $Cedule;
 <div>
 <span> <?php 
 
-if($Result <=17){
+if($Result <=17 ){
     echo"Su edad es ". $Result .  " años, por tanto: No es mayor de edad";
    }
    else {
@@ -53,6 +50,10 @@ if($Result <=17){
    }
 
 ?></span>
+
+
+
+
 </div>
  
     <div><button>

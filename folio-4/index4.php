@@ -14,7 +14,7 @@
 </header>
 
 <main>
-    <form action="indexv4.php" method="get" >
+    <form action="indexv4.php" method="post" >
 
     <div class="General">
     <span>Bienvenido al regulador de edades! </span>
@@ -46,7 +46,7 @@
         <div>
     <button>
 
-    <a href="indexv4.php">Enviar</a>
+    Enviar
 
     </button>
         </div>
