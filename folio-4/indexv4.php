@@ -56,13 +56,17 @@ if($Result <=17 ){
 
 </div>
  
-    <div><button>
+    <div>
+        <button>
     <a href="index4.php">Volver</a>
-    </button></div>
+    </button>
+</div>
 
-    <div><button>
+    <div>
+        <button>
     <a href="../index.html">Inicio</a>
-    </button></div>
+    </button>
+</div>
     </main>
 
 </body>
