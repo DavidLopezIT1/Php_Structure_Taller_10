@@ -1,17 +1,15 @@
 <?php
 
-$server = "localhost";
-$user = "root";
-$pass = "";
-$db = "mi_proyecto";
+//$server = "localhost";
+//$user = "root";
+//$pass = "";
+//$db = "mi_proyecto";
 
-$conexion = new mysqli($server, $user, $pass, $db);
+$conexion = mysqli_connect("localhost", "root", "", "Mi_proyecto");
 
-if ($conexion -> connect_errno){ 
-    die("Conexion Fallida" . $conexion -> connect_errno);
+if ($conexion->connect_errno){ 
+    die("Conexion Fallida" .$conexion->connect_error);
 }
-else{
-    echo "conectado" ;
-}
+
 ?>
 
