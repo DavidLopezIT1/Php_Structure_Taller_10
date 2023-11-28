@@ -12,16 +12,17 @@ if ($conexion->connect_errno){
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style7.css">
     <title>Base de Datos</title>
 </head>
 <body>
     <header>
         <h1>Consulta de bases de datos</h1>
     </header>
-    
+    <main>
 <form action="" method="get">
     <input type="text" name="busqueda">
-    <input type="submit" name="enviar" value="Get Inf">
+    <input type="submit" name="enviar" value="Enviar">
     </div>
     </form>
 
@@ -39,12 +40,18 @@ if ($conexion->connect_errno){
     <?php
     if(isset($_GET["enviar"])){
     $busqueda= $_GET["busqueda"];
-    $consulta= $conexion->query("SELECT * FROM usuarios WHERE nombre or apellido or cédula  LIKE '%$busqueda%' ");
+    $consulta1= $conexion->query("SELECT * FROM usuarios WHERE apellido or cédula LIKE '%$busqueda%'");
+    
+    
+
 }
 ?>
 <?php
-        while($row =mysqli_fetch_array($consulta)){ 
-        ?>
+
+
+
+        while($row =mysqli_fetch_array($consulta1)){ 
+       ?>
     <tr>
         <td><?php echo $row["id"]; ?></td>
         <td><?php echo $row["nombre"]; ?></td>
@@ -57,17 +64,14 @@ if ($conexion->connect_errno){
             <?php
 
            
-    while($row= $consulta->fetch_array($consulta))  {      
+    while($row= $consulta->fetch_array($consulta1))  {      
     echo $row['id'] . $row['nombre'] . $row['apellido'] . $row['cédula'];
 }
 
 ?>
    </form>
-
-
-
-
     
-
+   </main>
+   
 </body>
 </html>
