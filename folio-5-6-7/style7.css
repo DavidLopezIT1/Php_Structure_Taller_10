@@ -19,7 +19,33 @@ table{
     width: 400px;
     text-align: center;
 }
- input{
+.Text_Input{
     background-color: rgba(0, 0, 0, 0.281);
-    margin-left: 60px;
+    margin-left: 20px;
+    font-family: serif;
+    font-size: large;
+    border-radius: 12px;
+    color: aliceblue;
+ }
+ .Button_Input{
+    background-color: rgba(0, 0, 0, 0.281);
+    margin-left: 20px;
+    font-family: serif;
+    font-size: large;
+    border-radius: 12px;
+    color: aliceblue;
+ }
+ button{
+  background-color: rgba(0, 0, 0, 0.281);
+    margin-left: 20px;
+    font-family: serif;
+    font-size: large;
+    border-radius: 12px;
+    color: aliceblue;
+ }
+ a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: serif;
+    font-size: large;
  }

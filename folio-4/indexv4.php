@@ -18,7 +18,6 @@
 $name_User = $_REQUEST["Name_User"];
 $Cedule = $_REQUEST["Cedule"];
 $User_Date_Nac = $_REQUEST["User_Date_Nac"];
-
 $currentDate = new DateTime("2023-11-27");
 
 $birth = new DateTime ($User_Date_Nac);

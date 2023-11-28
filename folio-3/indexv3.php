@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="style3-2.css"> 
     <title title="Formulario GET - REQUEST">First Form</title>
     
-
 </head>
 <body>
     <header>

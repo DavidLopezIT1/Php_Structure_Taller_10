@@ -18,9 +18,11 @@ header{
     border-radius: 18px;
     font-family: coursive;
     font-size: large;
-
-
 }
+.General:hover{
+    background-color: red;
+}
+
 input{
     margin-top: 12px;
     margin-bottom: 12px;
@@ -29,6 +31,8 @@ input{
     height: 20px;
     border: solid 1px;
     border-radius: 18px;
+    background-color:  rgba(0, 0, 0, 0.105);
+
 }
 
 label{
