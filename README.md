@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Taller 10</title>
+    
 </head>
 <Body>
 
@@ -21,7 +21,7 @@
 <h3>Imágen de la interfaz operadora</h3>
 <img src="./Public/Images/Punto1_interfaz.png"></img><br><br>
 <h3>Resultado de la interfaz operadora</h3>
-<img src="./Public/Images/Punto1_resultado.png"></img><br><br>
+<img src="./Public/Images/punto1_resultado.png"></img><br><br>
 </div>
 
 <div>
