@@ -20,7 +20,8 @@ header{
     font-size: large;
 }
 .General:hover{
-    background-color: red;
+    background: linear-gradient(#04f1f9c0 , rgba(15, 207, 255, 0.785),rgba(5, 167, 207, 0.785) );
+
 }
 
 input{
